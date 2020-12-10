@@ -1,0 +1,105 @@
+/*code by https://codepen.io/csdigitaldesign/pen/eDpcz*/
+
+body {
+
+	background:black;
+}
+
+article {
+	width:80%;
+	margin:0 auto;
+	padding:50px 50px;
+	background: snow;
+}
+
+h1 {
+	font-size: 72px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10;
+	margin-bottom: 20px;
+}
+
+h1 span {
+	font-size: 60px;
+	text-transform: lowercase;
+	position: relative;
+	top:-15px;
+	font-family: Times New Roman;
+}
+
+.meta  {
+	display:inline-block;
+	margin:0;
+	padding: 0 20px;
+	background: white;
+	position: relative;
+	top:-12px;
+	font-size: 18px;
+	text-transform: uppercase;
+
+}
+
+header {
+	margin-bottom:25px;
+}
+strong {
+	margin: 0;
+}
+section .columns {/*definig columns*/
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+}
+p {
+	border-top:3px solid #333;
+	border-bottom:3px solid #333;
+	padding:15px 0;
+	font-family: 'Georgia';
+}
+/*code by Cody Pearce https://codepen.io/codypearce/pen/VwLEyPg*/
+.banner {
+	position:relative;
+	max-width:calc(100% - 375px);
+	margin: 0 auto;
+	display:block;
+	height: 35px;
+	text-align: center;
+	color:white;
+	background: #bf5750;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
+	font-size: 33px;
+}
+h2 {
+	font-size: 14px;
+	padding: 2px 0px;
+	color: #555;
+	justify-content: space-between;
+}
+blockquote{/*enclose the java file in this section*/
+  -moz-column-span:all;
+  -webkit-column-span:all;
+  column-span:all;
+  font-family: 'Playball', cursive;
+  font-size:32px;
+  font-weight:normal;
+  border-top:3px solid #333;
+  border-bottom:3px solid #333;
+  padding:15px 0;
+  
+}
+
+h3{
+	font-size: 40px;
+	font-family: 'Brush Script MT';
+	position: relative;
+	top:-15px;
+}
+h4 {
+  display:inline-block;
+  margin:0;
+  padding:0 20px;
+  position:relative;
+  top:-12px;
+  font-family: 'Georgia';
+}
